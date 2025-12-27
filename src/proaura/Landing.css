@@ -1,0 +1,145 @@
+.hero {
+    background-image: url('bkimg.jpg');
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-position: center;  
+    background-attachment: fixed; 
+    min-height: 100vh;
+}
+.hero h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(83, 83, 83);
+    text-shadow: 1px 1px 1px ;
+}
+.hero h4
+{
+    text-shadow: 2px 0px 2px;
+}
+.hero p
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer,a
+{
+color: black;
+text-decoration: none;
+}
+
+.hero1 {
+    background-image: url('bk1.jpg');
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-position: center;  
+    background-attachment: fixed; 
+    min-height: 100vh;
+}
+.back
+{
+    background:transparent;
+    border-radius: 10px;
+    text-align: center;
+}
+.back:hover{
+    color: bisque;
+    background-color: rgba(122, 79, 22, 0.81);
+    font-weight: bold;
+    border: 3px solid burlywood;
+}
+.hero1 .btn:hover
+{
+    background-color: rgba(70, 43, 23, 0.934);
+    color: bisque;
+}
+/* About Page */
+.hero2 {
+    background-image: url('bk2.jpg');
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-position: center;  
+    background-attachment: fixed; 
+    min-height: 100vh;
+}
+.hero2 h4,h2{
+    text-shadow: 2px 0px 2px ;
+}
+.hero2 p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hero2 .card p,li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero2 .card{
+    background-color:whitesmoke;
+    text-shadow: 1px 0px 1px grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* Contact Page */
+.hero3 {
+    background-image: url('bk4.jpg');
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-position: center;  
+    background-attachment: fixed; 
+    min-height: 100vh;
+}
+.hero3 .card
+{
+    background: transparent;
+    background-color: rgb(115, 55, 6);
+}
+.hero3 .container label
+{
+    color:white;
+}
+.hero3 .form-control
+{
+    background: transparent;
+    color: white;
+}
+.hero3 .form-control:hover{
+    background-color:chocolate;
+    padding:10px;
+    border:3px dashed black;
+}
+.form-control::placeholder
+{
+    color:white;
+    opacity: 0.9;
+}
+.form-control::placeholder:hover
+{
+    color:black;
+}
+.hero3 .btn{
+    background-color: rgb(76, 3, 3);
+    color: white;
+}
+.hero3 .btn:hover{
+    background-color: bisque;
+    color: black;
+    outline: 3px dashed black ;
+}
+
+.hero4 {
+    background-image: url('bk7.jpg');
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-position: center;  
+    background-attachment: fixed; 
+    min-height: 100vh;
+}
+
+.hero5 {
+    background-image: url('bk6.jpg');
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-position: center;  
+    background-attachment: fixed; 
+    min-height: 100vh;
+}
+.hero5 h1{
+    text-shadow: 2px 0px 2px ;
+    color: rgb(91, 16, 16);
+}
